@@ -106,11 +106,11 @@ This assignment will be graded via peer assessment.
 
 ### Testing the CacheMatrix Code
 
->  mx = makeCacheMatrix(matrix(c(4,2,7,6),nrow=2,ncol=2))
->  imx = cacheSolve(mx) 
->  imx = cacheSolve(mx) 
-   getting from cached data
->  imx
-   [,1] [,2]
+  mx = makeCacheMatrix(matrix(c(4,2,7,6),nrow=2,ncol=2))
+  imx = cacheSolve(mx) 
+  imx = cacheSolve(mx) 
+  getting from cached data
+  imx
+         [,1] [,2]
    [1,]  0.6 -0.7
    [2,] -0.2  0.4
